@@ -1,0 +1,26 @@
+{
+  "name": "x-keeper-test",
+  "version": "1.0.0",
+  "description": "X-keeper test task",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon ./src/index.ts",
+    "start": "ts-node ./src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bdf2ch/x-keeper-demo.git"
+  },
+  "author": "bdf2ch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bdf2ch/x-keeper-demo/issues"
+  },
+  "homepage": "https://github.com/bdf2ch/x-keeper-demo#readme",
+  "devDependencies": {
+    "@types/node": "^14.14.17",
+    "nodemon": "^2.0.6",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  }
+}
